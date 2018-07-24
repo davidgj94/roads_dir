@@ -1,7 +1,7 @@
-function [] = build_mask_raw()
+function [] = build_mask_raw(root_dir, target_dir)
 
-root_dir = '/home/david/projects/dataset_clean/SegmentationClass';
-target_dir = '/home/david/projects/dataset_clean/SegmentationClassRaw';
+% root_dir = '/home/david/projects/dataset_clean/SegmentationClass';
+% target_dir = '/home/david/projects/dataset_clean/SegmentationClassRaw';
 dir_struct = dir(root_dir);
 
 for i = 3:numel(dir_struct)
